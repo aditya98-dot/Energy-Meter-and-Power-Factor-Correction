@@ -47,8 +47,8 @@ byte Month, Day, Hour, Minute, Second;
 String myDate, myTime, monitoring, dataMessage;
 
 // Replace with your network credentials
-const char* ssid = "Masterpiece";
-const char* password = "handstand";
+const char* ssid = "REPLACE WITH YOUR SSID";
+const char* password = "REPLACE WITH YOUR PASSWORD";
 
 // REPLACE with your Domain name and URL path or IP address with path
 const char* serverName  = "https://power-meter.smart-monitoring.my.id/db-listrik.php"; //Hostname
