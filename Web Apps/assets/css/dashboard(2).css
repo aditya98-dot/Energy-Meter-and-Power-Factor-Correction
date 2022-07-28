@@ -1,0 +1,127 @@
+body {
+  font-family: Roboto;
+}
+
+footer {
+  background-color: #33383c;
+  padding: 20px 0px;
+  margin-top: 20px;
+  /* padding-bottom: 5px; */
+}
+
+footer ul li {
+  padding: 2px 0px;
+}
+
+.chart {
+  padding-top: 200px;
+  margin-top: 200px;
+}
+
+/* Footer */
+.adress span,
+.contact span,
+.social span {
+  color: #fff;
+  font-weight: 600;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  display: block;
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.adress li p,
+.contact li a,
+.social li a {
+  color: #fff;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.social li {
+  float: left;
+}
+
+.adress,
+.contact,
+.social {
+  list-style: none;
+}
+
+.fa {
+  color: #9c9c9c;
+  margin-right: 15px;
+  font-size: 15px;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.align-right {
+  text-align: right;
+}
+.align-justify {
+  text-align: justify;
+}
+
+/* Container */
+
+.container {
+  margin: 0 auto;
+  max-width: calc(100% - 4em);
+  width: 100%;
+}
+
+.container.xsmall {
+  width: 25%;
+}
+
+.container.small {
+  width: 50%;
+}
+
+.container.medium {
+  width: 75%;
+}
+
+.container.large {
+  width: 125%;
+}
+
+.container.xlarge {
+  width: 150%;
+}
+
+.container.max {
+  width: 100%;
+}
+
+@media screen and (max-width: 980px) {
+  .container {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    max-width: calc(100% - 3em);
+  }
+}
+
+/* Row */
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  align-items: stretch;
+}

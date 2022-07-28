@@ -1,0 +1,51 @@
+body {
+  font-family: sans-serif;
+  font-size: 14px;
+  background-image: url('img/image9.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+#utama {
+  position: fixed;
+  top: 50%;
+  left: 45%;
+  transform: translate(-30%, -50%);
+  background: rgba(4, 29, 23, 0.5);
+  padding: 50px;
+  width: 270px;
+  box-shadow: 0px 0px 25px 10px black;
+  border-radius: 15px;
+}
+#judul {
+  padding: 15px;
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom: 3px solid #339966;
+}
+#inputan {
+  padding: 15px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+input {
+  padding: 10px;
+  border: 0;
+}
+.lg {
+  width: 215px;
+}
+.btn {
+  width: 235px;
+  background-color: #6495ed;
+  color: #fff;
+}
+.btn:hover {
+  background-color: #339966;
+  cursor: pointer;
+}
